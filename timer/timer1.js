@@ -1,4 +1,5 @@
-const numbers = [10, 3, 5, 15, 9 ];
+// const numbers = [10, 3, 5, 15, 9 ];
+const numbers = process.argv.slice(2)
 
 const timer = function(nums) {
     for (const num of nums) {
